@@ -1,18 +1,10 @@
-# Vision-based Teleoperation of Shadow Dexterous Hand using End-to-End Deep Neural Network
+# Multimodal Teleoperation system of Shadow Dexterous Hand
 
-Venue: ICRA 2019
+Author's mail : sli@informatik.uni-hamburg.de
 
-Author's mail : sli@informatik.uni-hamburg.de, jeasinema@gmail.com
+This package is a extended work from this paper ([Vision-based Teleoperation of Shadow Dexterous Hand using End-to-End Deep Neural Network](https://arxiv.org/abs/1809.06268)).
 
-
-This package produces visually similar robot hand poses based on depth images of the human hand in an end-to-end fashion, which is a collaborative work done by TAMS and Fucun Sun's lab of Tsinghua University.
-
-The special structure of TeachNet, combined with a consistency loss function, handles the differences in appearance and anatomy between human and robotic hands. A synchronized human-robot training set is generated from an existing dataset of labeled depth images of the human hand and from simulated depth images of a robotic hand.
-
-Please cite this paper ([Vision-based Teleoperation of Shadow Dexterous Hand using End-to-End Deep Neural Network](https://arxiv.org/abs/1809.06268)), if you use our released code.
-
-<img src="img/pipeline.svg" width="100%">
-
+We build a arm-hand robotic teleoperation system which is combined with tactile feedback to ensure stable grasps.
 ## Video
 <a href="https://www.youtube.com/watch?v=I1FTJ87CtDs
 " target="_blank"><img src="img/video.png"
